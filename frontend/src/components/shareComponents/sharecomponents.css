@@ -1,0 +1,73 @@
+.sharecomponents{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px #000000; 
+    box-shadow: 0px 0px 16px -8px #000000;
+    margin-bottom: 35px;
+}
+
+.sharecomponentswrapper{
+    padding: 10px;
+
+}
+.sharecomponenttop{
+    display: flex;
+    align-items: center;
+}
+
+.sharecomponentsimg{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sharecomponentsinput{
+    border: none;
+    width: 80%;
+}
+
+.sharecomponentsinput:focus{
+    outline: none;
+}
+
+.sharecomponentshr{
+    margin: 20px;
+}
+
+.sharecomponentbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sharecomponentsoptions{
+    display: flex;
+    margin-left: 20px;
+
+}
+.sharecomponentsoption{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.sharecomponentsicon{
+    font-size: 18px;
+    margin-right: 10px ;
+}
+.sharecomponentsoptiontext{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sharecomponentsbutton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    color: aliceblue;
+    margin-right: 20px;
+    cursor: pointer;
+}
